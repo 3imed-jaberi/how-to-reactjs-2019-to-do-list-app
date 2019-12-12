@@ -1,7 +1,35 @@
 {
   "name": "how-to-reactjs-2019-to-do-list-app",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": " A simple app of the REACT JS ⚛️ concepts studied in the `how-to-to-reactjs-2019` workshop 🥑 .. ",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:3imed-jaberi/how-to-reactjs-2019-to-do-list-app.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "to-do-list-app",
+    "quick-demo",
+    "jsx",
+    "spa",
+    "front-end",
+    "isamm",
+    "j2i",
+    "workshop"
+  ],
+  "author": {
+    "name": "imed jaberi",
+    "email": "imed_jebari@hotmail.fr",
+    "url": "https://github.com/3imed-jaberi"
+  },
+  "license": "GPLv3",
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6",
+    "yarn": ">=1"
+  },
   "dependencies": {
     "bootstrap": "^4.4.1",
     "react": "^16.12.0",
@@ -27,5 +55,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "bugs": {
+    "url": "git+https://github.com/3imed-jaberi/how-to-reactjs-2019-to-do-list-app/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/how-to-reactjs-2019-to-do-list-app#readme"
 }
