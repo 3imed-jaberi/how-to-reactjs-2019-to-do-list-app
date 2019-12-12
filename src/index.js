@@ -1,5 +1,10 @@
+// React 
 import React from 'react';
+// React DOM 
 import ReactDOM from 'react-dom';
+
+// Bootstrap UI
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
