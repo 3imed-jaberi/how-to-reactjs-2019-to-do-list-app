@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 // Our Components 
-import { CardItem, Input, TextArea, Button } from './components';
+import { CardItem, Input, TextArea, Button, Alert } from './components';
 // Our Static Data
 import { DescPlaceholder, BtnTitle, FormTitle, TechPlaceholder, warnMsg } from './constants'; 
 
@@ -80,7 +80,7 @@ class App extends React.Component {
 
           <Button onClick={this.handleClick.bind(this)} btnTitle={BtnTitle} btnStyle="btn btn-dark btn-block" />
 
-          {  this.state.alert && <p className="alert alert-secondary mt-3"> {warnMsg} </p>  }
+          {  this.state.alert && <Alert content={warnMsg} /> }
 
 
           {/* Handle All Tech List : */}
